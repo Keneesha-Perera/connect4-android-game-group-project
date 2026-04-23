@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Connect Four</string>
+
+    <string-array name="mode_selection_options">
+        <item>2-Player Mode</item>
+        <item>AI Mode</item>
+    </string-array>
+</resources>

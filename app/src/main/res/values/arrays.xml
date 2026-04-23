@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="grid_size_options">
+        <item>Standard (7x6)</item>
+        <item>Small (6x5)</item>
+        <item>Large (8x7)</item>
+    </string-array>
+</resources>

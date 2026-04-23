@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/statistics_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gameplay Statistics"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Player 1 Statistics -->
+    <TextView
+        android:id="@+id/player1_stats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Player 1 Stats"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/player1_games_played"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Games Played: 0" />
+
+    <TextView
+        android:id="@+id/player1_wins"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wins: 0" />
+
+    <TextView
+        android:id="@+id/player1_losses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Losses: 0" />
+
+    <TextView
+        android:id="@+id/player1_win_percentage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Win Percentage: 0%" />
+
+    <!-- Player 2 Statistics -->
+    <TextView
+        android:id="@+id/player2_stats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Player 2 Stats"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/player2_games_played"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Games Played: 0" />
+
+    <TextView
+        android:id="@+id/player2_wins"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wins: 0" />
+
+    <TextView
+        android:id="@+id/player2_losses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Losses: 0" />
+
+    <TextView
+        android:id="@+id/player2_win_percentage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Win Percentage: 0%" />
+
+    <!-- Spacer -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- Back Button -->
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:minHeight="48dp"
+        android:text="Back" />
+
+</LinearLayout>
